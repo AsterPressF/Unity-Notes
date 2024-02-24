@@ -14,7 +14,7 @@ This code will be the connection to the created object
 ```
 
 ## Trigger
-If an object with the tag "Player" touches this object.
+If the tag of the object touched is "Player".
 ```cs
   if (other.CompareTag("Player"))
 ```
