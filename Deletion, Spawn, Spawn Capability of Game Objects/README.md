@@ -1,7 +1,7 @@
 # Spawn
 
 # Code (First Class):
-This code will be the connection the the empty object.
+This code will connect to an empty object.
 ```cs
     [SerializeField] private GameObject coinPrefab;
     [SerializeField] private float spawnRate = 0.1f;
