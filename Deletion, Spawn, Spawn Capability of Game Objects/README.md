@@ -1,6 +1,6 @@
 # Spawn
 
-# Code
+# Code:
 This code will be the connection to the created object
 ```cs
     private void OnTriggerEnter(Collider other)
