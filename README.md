@@ -1,2 +1,2 @@
 # Notes
-beginner and advanced notes
+Beginner and advanced notes
