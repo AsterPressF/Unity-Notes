@@ -79,6 +79,7 @@ Vector3D took (X from -20 to 0, Y is 1, Z from -20 to 0).
 ```cs
     whereToSpawn = new Vector3(Random.Range(-20, 0), 1.0f, Random.Range(-20, 0));
 ``
+
 Created the object
 ```cs
     createdObject = Instantiate(coinPrefab, whereToSpawn, Quaternion.identity);
@@ -99,4 +100,16 @@ Check if the area is free or not.
 If free => returns true, if occupied => returns false.
 ```cs
     bool skip = AABBCollisionTest(createdBounds);
+```
+
+## Fate of the object
+Replenish List for future verification
+```cs
+        if (skip)
+        {
+            generatedBounds.Add(createdBounds);
+            _coinAmount += 1;
+        }
+        else
+            Destroy(createdObject);
 ```
