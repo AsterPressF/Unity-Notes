@@ -79,7 +79,7 @@ If free => returns true, if occupied => returns false.
 ```
 
 ## Fate of the object
-Replenish List for future verification
+Replenish List for future verification.
 ```cs
         if (skip)
         {
