@@ -75,7 +75,7 @@ This code will be the connection the the empty object.
 ```
 
 ## Spawn Position and create
-Vector3D took (X from -20 to 0, y or 1, z from -20 to 0).
+Vector3D took (X from -20 to 0, Y is 1, Z from -20 to 0).
 ```cs
     whereToSpawn = new Vector3(Random.Range(-20, 0), 1.0f, Random.Range(-20, 0));
 ``
