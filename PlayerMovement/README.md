@@ -1,6 +1,6 @@
 # Player Movement
 
-# Code
+# Code:
 ```cs
     [SerializeField] private float _speed = 5f;
 
@@ -12,7 +12,8 @@
         transform.position += movement * _speed * Time.deltaTime;
     }
 ```
-## The global variable that we see in Unity.
+## Variable
+The global variable that we see in Unity.
 ```cs
     [SerializeField] private float _speed = 5f;
 ```
