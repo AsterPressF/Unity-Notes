@@ -1,5 +1,4 @@
 # Player Movement
 ```cs
-> float horizontal = Input.GetAxis("Horizontal");
-> float vertical = Input.GetAxis("Vertical");
-```
+float горизонталь = Input.GetAxis("Horizontal");
+float вертикаль = Input.GetAxis("Vertical");
